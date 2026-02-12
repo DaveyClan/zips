@@ -10,7 +10,7 @@
       <import addon="script.module.kodi-six" />
   </requires>
 
-  <extension point="xbmc.python.executable" library="default.py">
+  <extension point="xbmc.python.script" library="default.py">
     <provides>executable</provides>
   </extension>
 
