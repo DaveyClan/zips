@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.program.daveyclanwizard" name="[COLOR orchid]DaveyClan[/COLOR]" version="1.0.1" provider-name="DaveyClan">
+<addon id="plugin.program.daveyclanwizard" name="[COLOR orchid]DaveyClan[/COLOR]" version="1.0.0" provider-name="DaveyClan">
   <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.six" />
         <import addon="script.module.kodi-six" />
   </requires>
-  <extension point="xbmc.python.script" library="default.py">
+  <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>executable</provides>
   </extension>
   <extension point="xbmc.service" library="startup.py" start="startup" />
