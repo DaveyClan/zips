@@ -27,8 +27,8 @@
   <requires>
         <import addon="xbmc.python" version="3.0.0"/>
   </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>program</provides>
+  <extension point="xbmc.python.script" library="default.py">
+    <provides>executable</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
         <summary lang="en">Aether Nexus</summary>
