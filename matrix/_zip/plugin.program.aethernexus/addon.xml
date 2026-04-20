@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.aethernexus" 
+       name="[COLOR purple]Aether Nexus[/COLOR]" 
+       version="1.0.0" 
+       provider-name="Aether">
+
+  <requires>
+      <import addon="xbmc.python" version="3.0.0"/>
+      <import addon="script.module.six" />
+      <import addon="script.module.kodi-six" />
+  </requires>
+
+  <extension point="xbmc.python.script" library="default.py">
+    <provides>executable</provides>
+  </extension>
+
+  <!-- Keep service if Crew wizard used it -->
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+
+  <extension point="xbmc.addon.metadata">
+      <summary lang="en">Aether Nexus</summary>
+      <description lang="en">Aether Nexus
+
+Aether Nexus is the central hub of the Aether ecosystem — designed to deliver a seamless, guided setup with precision and speed.
+
+Built with simplicity in mind, Nexus gives you instant access to Aether builds, system tools, and essential integrations, all in one refined interface. From first install to full optimisation, every step is streamlined to eliminate clutter and maximise performance.
+
+With intelligent configuration, integrated account linking, and automated maintenance tools, Aether Nexus ensures your setup stays fast, clean, and ready to perform.
+
+No guesswork. No unnecessary steps. Just a smooth, elevated experience — exactly how streaming should be.
+
+Stream Above.</description>
+      <platform>all</platform>
+      <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+      <disclaimer lang="en">The author of this addon does not host any content. It provides scripts and links for Kodi users. Use at your own risk.</disclaimer>
+      <assets>
+          <icon>icon.png</icon>
+          <fanart>fanart.jpg</fanart>
+          <screenshot>resources/art/ss/1.png</screenshot>
+          <screenshot>resources/art/ss/2.png</screenshot>
+          <screenshot>resources/art/ss/3.png</screenshot>
+      </assets>
+  </extension>
+
+</addon>
