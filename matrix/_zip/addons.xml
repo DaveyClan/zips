@@ -23,7 +23,7 @@
 
 </addon>
 
-<addon id="plugin.program.Aethernexus" name="[COLOR purple]Aether Nexus[/COLOR]" version="1.0.0" provider-name="Aether">
+<addon id="plugin.program.aethernexus" name="[COLOR purple]Aether Nexus[/COLOR]" version="1.0.0" provider-name="Aether">
   <requires>
         <import addon="xbmc.python" version="3.0.0"/>
   </requires>
